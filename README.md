@@ -39,7 +39,7 @@ int main(int argc, char* argv[]) {
 }
 ```
 
-### 3. Run thi script
+### 3. Run this script
 ```
 docker run -it --mount src="$(pwd)",target=/home,type=bind wildanbudiawanz/app-mpi:1.0
 ```
