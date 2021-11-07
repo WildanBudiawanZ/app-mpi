@@ -47,7 +47,7 @@ docker run -it --mount src="$(pwd)",target=/home,type=bind wildanbudiawanz/app-m
 
 
 windows:
-docker run -it --mount src="C:\Users\Wildan Budiawan Z\Documents\MPI",target="/home",type=bind wildanbudiawanz/app-mpi:1.0
+docker run -it --mount src="C:\Users\User Name\Documents\MPI",target="/home",type=bind wildanbudiawanz/app-mpi:1.0
 ```
 
 ### 4. Select ``/home`` directory under docker container
