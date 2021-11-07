@@ -41,7 +41,13 @@ int main(int argc, char* argv[]) {
 
 ### 3. Run this script
 ```
+linux/mac
+
 docker run -it --mount src="$(pwd)",target=/home,type=bind wildanbudiawanz/app-mpi:1.0
+
+
+windows:
+docker run -it --mount src="C:\Users\Wildan Budiawan Z\Documents\MPI",target="/home",type=bind wildanbudiawanz/app-mpi:1.0
 ```
 
 ### 4. Select ``/home`` directory under docker container
